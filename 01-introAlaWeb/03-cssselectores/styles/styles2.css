@@ -21,3 +21,11 @@ nav a:hover{
 h1, p, div, nav{
     text-align: center;
 }
+
+ul li{
+    color:blue
+}
+ul li:nth-child(odd){
+    font-style: italic;
+    color: chartreuse;
+}

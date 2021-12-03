@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: yellow;
+    height: 10vh;
+}
+aside{
+    background-color: yellowgreen;
+    height: 80vh;
+    width: 20%;
+    float: left;
+}
+main{
+    background-color: turquoise;
+    height: 80vh;
+    width: 80%;
+    float: left;
+}
+footer{
+    background-color: violet;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+}

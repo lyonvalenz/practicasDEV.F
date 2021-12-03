@@ -1,0 +1,7 @@
+body{
+    border: 1px solid;
+    padding: 10px;
+}
+header, main, footer{
+    border: 1px, solid;
+}
