@@ -1,7 +1,13 @@
 body {
-    background-color: lightblue;
+ margin: 0%;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.Encabezado {
-    color: lightcoral;
+header{
+    height: 20vh;
+    width: 100vh;
+}
+h2{
+    background-color: rgb(133, 191, 238);
+    text-align:justify;
 }
