@@ -1,6 +1,6 @@
 body{
     font-size: 18px;
-    margin: 20px;
+    margin-right: 0%;
 }
 /* header{
     align-items: center;
@@ -21,12 +21,14 @@ header span{
 }
 nav a:hover{
     background-color: rgb(221, 221, 221);
-    color: white;
     border-radius: 50px;
 }
 h4{
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    margin-left: 3%;
 }
 .navbar{
     display: flex;
@@ -40,7 +42,22 @@ h4{
 .section_one{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.section_two{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.section_three{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.section_four{
+    display: flex;
+    align-items: center;
+    display: inline-block;
 }
 .imagenredon{
     width: 25px;
@@ -54,15 +71,18 @@ h4{
 }
 .barrabus{
     width: 100%;
-    height: 6vh;
+    height: 50px;
     border-radius: 50px;
     background-color: rgb(238, 236, 236);
-    border-color: white;
+    border-style: none;
 }
-.parent{
+.parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 0px;
     grid-row-gap: 20px;
+    }
+.img{
+    border-radius: 20px;
 }
