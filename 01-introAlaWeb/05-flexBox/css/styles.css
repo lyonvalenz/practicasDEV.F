@@ -1,0 +1,36 @@
+body{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0
+}
+header{
+    align-items: center;
+    background-color: rgb(0, 30, 87);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+h1, nav{
+    display: inline-block;
+}
+h1, nav a{
+    color: #ffffff;
+}
+h1{
+    font-size: 1.2rem;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+}
+nav a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    padding: 10px 5px  ;
+}
+nav a:hover{
+    background-color: rgb(135, 156, 250);
+}
