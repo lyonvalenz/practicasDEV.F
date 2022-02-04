@@ -1,0 +1,15 @@
+body{
+    background-color: cornflowerblue;
+}
+
+footer a{
+    position: fixed;
+    bottom: 20px;
+    left: 85%;
+    background-color: crimson;
+    text-decoration: none;
+    border: 1px solid crimson ;
+    border-radius: 5px;
+    color: darkolivegreen ;
+    padding: 5px 10px;
+}
