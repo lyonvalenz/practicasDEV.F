@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM</title>
+
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+<main id="contenedor">
+
+    <div class="cajacentro">
+
+        <header class="columna1">
+            <label for="nombre">Usuario:</label><br />
+            <input id="nombre" type="text" /><br />
+            <label for="password">Contraseña:</label><br />
+            <input id="password" type="password" /><br /><br />
+            <label for="apertura">Monto de apertura:</label><br />
+            <input id="apertura" type="text" /><br /><br />
+            <button onclick="validaUsuario()">Ingresar</button>
+        </header>
+
+        <section class="columna2">
+            <div>
+                <h1>Cajero Automático</h1>
+                <h3 id="bienvenida"></h3>
+                <h4 id="montoApertura" class="apertura">$</h4>
+                <h5 class="tamañoresultados"><span id="operaciones">0</span></h5>
+                <h2 id="total">0</h2>
+            </div>
+
+        <div class="gridbotones">
+            <button onclick="CapturarDatos('7')">7</button>
+            <button onclick="CapturarDatos('8')">8</button>
+            <button onclick="CapturarDatos('9')">9</button>
+            <button onclick="CapturarDatos('+')">Abonar +</button>
+            <button onclick="CapturarDatos('4')">4</button>
+            <button onclick="CapturarDatos('5')">5</button>
+            <button onclick="CapturarDatos('6')">6</button>
+            <button onclick="CapturarDatos('-')">Retirar -</button>
+            <button onclick="CapturarDatos('1')">1</button>
+            <button onclick="CapturarDatos('2')">2</button>
+            <button onclick="CapturarDatos('3')">3</button>
+            <button onclick="CapturarDatos('=')">=</button>
+            <button onclick="CapturarDatos('c')">C</button>
+            <button onclick="CapturarDatos('0')">0</button>
+            <button></button>
+            <button onclick="CapturarDatos('break')">Salir</button>
+        </div>
+
+        </section>
+
+            <aside class="columna3">
+            <h3>Saldo final</h4>
+            <p id="total1" class="tamañoresultados1">$</p>
+        </aside>
+
+    </div>
+</body>
+
+</html>

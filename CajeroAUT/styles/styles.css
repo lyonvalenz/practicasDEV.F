@@ -1,0 +1,101 @@
+body {
+font-size: 18px;
+font-family: "Roboto", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+#contenedor {
+max-width: 1024px;
+margin: 0 auto;
+}
+
+.cajacentro {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 18% auto !important;
+width: 800px;
+background-color: #212121;
+padding: 3%;
+border-radius: 5px;
+}
+
+header label {
+color: #ffffff;
+}
+
+div h1,
+div h3 {
+color: #ffffff;
+margin: 0;
+}
+div h5,
+div h2,
+div h4,
+aside p {
+color: #ffffff;
+margin: 0;
+text-align: right;
+}
+aside h4 {
+color: #ffffff;
+margin: 0;
+text-align: left;
+}
+
+.tamañoresultados,
+.apertura,
+.tamañoresultados1 {
+font-size: 1rem;
+font-weight: bold;
+}
+
+.columna1 {
+margin-top: 0.5%;
+height: 100%;
+width: 20%;
+}
+
+.columna2 {
+height: 100%;
+width: 60%;
+}
+
+.columna3 {
+height: 100%;
+}
+
+.gridbotones {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+section div button {
+background-color: #212121;
+color: #ffffff;
+border: 1px solid #ffffff;
+border-radius: 8%;
+padding: 10px 0;
+cursor: pointer;
+}
+
+section div button:hover {
+background-color: #424242;
+}
+
+header button {
+background-color: #212121;
+color: #ffffff;
+border: 1px solid #ffffff;
+border-radius: 8%;
+padding: 10px;
+cursor: pointer;
+}
+
+header button:hover {
+background-color: #424242;
+}
